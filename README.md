@@ -41,10 +41,10 @@ To run the SQL file:
 ```sql
 -- Example of TestDataSet.sql
 INSERT INTO soccer_team (id, name, balance, board) VALUES
-(1, 'Red Lions', 500000.00, 'John Smith'),
-(2, 'Blue Falcons', 300000.00, 'Alice Johnson'),
-(3, 'Golden Eagles', 750000.00, 'Michael Thompson'),
-(4, 'Silver Warriors', 200000.00, 'Sarah Williams');
+(1, 'Red Lions', 500000.00, 1),
+(2, 'Blue Falcons', 300000.00, 3),
+(3, 'Golden Eagles', 750000.00, 4),
+(4, 'Silver Warriors', 200000.00, 7);
 
 INSERT INTO soccer_player (id, age, name, experience, team_id) VALUES
 (1, 22, 'Alex Carter', 3, 1),
